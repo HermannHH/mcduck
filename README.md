@@ -3,6 +3,8 @@ mcduck
 
 Convert integers and string formatted integers to a properly formatted currency and back again to an integer/string formatted integer
 
+[![Build Status](https://travis-ci.org/HermannHH/mcduck.svg?branch=master)](https://travis-ci.org/HermannHH/mcduck)
+
 ## Installation
 
   `npm install mcduck --save` or `yarn dd mcduck --save`
