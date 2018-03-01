@@ -5,14 +5,20 @@ Convert integers and string formatted integers to a properly formatted currency 
 
 ## Installation
 
-  `npm install mcduck`
+  `npm install mcduck --save` or `yarn dd mcduck --save`
 
 ## Usage
 
-    var numFormatter = require('@jdaudier/number-formatter');
+    RequireJS:
 
-    var formattedNum = numFormatter(35666);
-  
+    var numFormatter = require('mcduck');
+
+    var formattedNum = mcduck(35666);
+
+    es6:
+    import mcduck from 'mcduck';
+
+    const formattedNum = mcduck(35666)
   
   Output should be `35,666`
 
