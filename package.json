@@ -1,6 +1,6 @@
 {
   "name": "mcduck",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert integers and string formatted integers to a properly formatted currency and back again to an integer/string formatted integer",
   "main": "index.js",
   "scripts": {
