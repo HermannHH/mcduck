@@ -19,7 +19,7 @@ var toCurrency = function(x, symbol='USD') {
   return `${symbol} ${leftDecimal}.${rightDecimal}`;
 };
 
-var toIntegerString = function() {
+var toIntegerString = function(x) {
   let input = '0';
   if (x) {
     input = isNumber(x) ? x.toString() : x;
